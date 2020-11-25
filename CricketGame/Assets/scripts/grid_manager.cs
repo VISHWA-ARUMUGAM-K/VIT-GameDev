@@ -35,5 +35,9 @@ public class grid_manager : MonoBehaviour
             }
         }
         Destroy(referenceTile);
+        float gridw = cols * tilesize;
+        float gridh = rows * tilesize;
+        transform.position = new Vector2(-gridw / 2 + tilesize / 2, gridh / 2 - tilesize/2);
+
     }
 }

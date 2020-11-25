@@ -42,3 +42,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: ATMOST LAYER
+    uniqueID: 372240875
+    locked: 0
+  - name: New Layer
+    uniqueID: 3960090975
+    locked: 0
