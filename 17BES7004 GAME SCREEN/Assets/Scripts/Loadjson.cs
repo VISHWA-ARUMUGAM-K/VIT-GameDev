@@ -1,20 +1,22 @@
 ﻿
-using System.Collections;
+using System;
 using System.Collections.Generic;
-using UnityEngine;
 
-
-public class Loadjson : MonoBehaviour
+[Serializable]
+public class Loadjson
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public String current_points;
+    public List<tasklist> tasks;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
+
+}
+[Serializable]
+public class tasklist
+{
+    public string title;
+    public int  points;
+
+    public bool compeleted;
+
 }
